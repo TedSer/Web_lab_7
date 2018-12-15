@@ -1,0 +1,172 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url(images/wavy-dots.png);
+}
+
+div.jumbotron.jumbotron-fluid {
+    background-image: url("https://www.fivb.org/Vis2009/Images/GetImage.asmx?No=74162&type=Press&width=1500&height=865&stretch=uniform");
+    height: 500px;
+    background-position: center;
+    background-size: 100%
+}
+
+.section {
+    background: #7b7777;
+
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    padding: 25px 20px;
+    border: 3px solid white;
+    background: #5c5a5a;
+    color: white;
+    text-align: left;
+    font-size: 13px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+
+}
+
+.section .header {
+    padding: 10px 10px;
+}
+
+.section .win-result {
+    background: url("https://images.laola1.tv/pool/456_1920x1080.jpg") 90%;
+}
+
+.section .about-team {
+    background: url("https://www.fivb.org/Vis2009/Images/GetImage.asmx?No=201830541&width=900&height=600&stretch=uniform");
+    background-position: top;
+    background-size: cover;
+
+}
+
+.score-logo-left {
+    float: left;
+    width: 60%;
+}
+
+.score-logo-right {
+    float: right;
+    width: 60%;
+}
+
+.section .score {
+    font-size: 10vh;
+    font-weight: bold;
+    color: #f8fde1;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30%;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*------------------------------------Footer---------------------------------------*/
+
+/*---------------------------------------------------------------------------------*/
+
+.footer-distributed {
+    background-color: #7b7777;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 3px;
+}
+
+.footer-distributed p.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+
+
+
+
+.title {
+
+    margin-bottom: 15px;
+    padding: 10px 5px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.shadowed {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
